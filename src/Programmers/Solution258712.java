@@ -10,7 +10,9 @@ public class Solution258712 {
     for (int i = 0; i < friends.length; i++) {
       map.put(friends[i], i);
     }
+    // 선물 지수
     int[] index = new int[friends.length];
+    // 선물 주고받은 기록
     int[][] record = new int[friends.length][friends.length];
 
     // 선물 주고받은 기록 확인
