@@ -20,6 +20,6 @@ public class Solution12953 {
   }
 
   private int lcd(int a, int b) {
-    return (a + b) / gcd(a, b);
+    return (a * b) / gcd(a, b);
   }
 }
